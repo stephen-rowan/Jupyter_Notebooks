@@ -1,23 +1,27 @@
-ISAD_G_Area,Element,Fonds,SubFonds,Series,File,Item
-Identity Statement Area,Reference code,mandatory,mandatory,mandatory,mandatory,mandatory
-Identity Statement Area,Title,mandatory,mandatory,mandatory,mandatory,mandatory
-Identity Statement Area,Dates,mandatory,mandatory,mandatory,mandatory,mandatory
-Identity Statement Area,Level of description,mandatory,mandatory,mandatory,mandatory,mandatory
-Identity Statement Area,Extent and medium of the unit of description,mandatory,mandatory,mandatory,mandatory,mandatory
-Context Area,Name of Creator,mandatory,mandatory,mandatory,mandatory,mandatory
-Context Area,Administrative/biographical history,optional,optional,optional,optional,optional
-Context Area,Archival history,optional,optional,optional,optional,optional
-Context Area,Immediate source of acquisition or transfer,optional,optional,optional,optional,optional
-Content and Structure Area,Scope and content,optional,optional,optional,optional,optional
-Content and Structure Area,"Appraisal, destruction and scheduling information",optional,optional,optional,optional,optional
-Content and Structure Area,Accruals,optional,optional,optional,optional,optional
-Content and Structure Area,System of Arrangement,optional,optional,optional,optional,optional
-Conditions of Access and Use Area,Conditions governing access,optional,optional,optional,optional,optional
-Conditions of Access and Use Area,Conditions governing reproduction,optional,optional,optional,optional,optional
-Conditions of Access and Use Area,Language/scripts of material,optional,optional,optional,optional,optional
-Conditions of Access and Use Area,Physical characteristics and technical requirements,optional,optional,optional,optional,optional
-Conditions of Access and Use Area,Finding aids,optional,optional,optional,optional,optional
-Notes Area,Note,optional,optional,optional,optional,optional
-Description control area,Archivist’s Note,optional,optional,optional,optional,optional
-Description control area,Rules or conventions,optional,optional,optional,optional,optional
-Description control area,Date of description,optional,optional,optional,optional,optional
+ISAD_G_Level_ID,ISAD_G_Area,Element,Fonds,SubFonds,Series,File,Item
+1.1,Identity Statement Area,Reference code,mandatory,mandatory,mandatory,mandatory,mandatory
+1.2,Identity Statement Area,Title,mandatory,mandatory,mandatory,mandatory,mandatory
+1.3,Identity Statement Area,Dates,mandatory,mandatory,mandatory,mandatory,mandatory
+1.4,Identity Statement Area,Level of description,mandatory,mandatory,mandatory,mandatory,mandatory
+1.5,Identity Statement Area,Extent and medium of the unit of description,mandatory,mandatory,mandatory,mandatory,mandatory
+2.1,Context Area,Name of Creator,mandatory,mandatory,mandatory,mandatory,mandatory
+2.2,Context Area,Administrative/biographical history,optional,optional,optional,optional,optional
+2.3,Context Area,Archival history,optional,optional,optional,optional,optional
+2.4,Context Area,Immediate source of acquisition or transfer,optional,optional,optional,optional,optional
+3.1,Content and Structure Area,Scope and content,optional,optional,optional,optional,optional
+3.2,Content and Structure Area,"Appraisal, destruction and scheduling information",optional,optional,optional,optional,optional
+3.3,Content and Structure Area,Accruals,optional,optional,optional,optional,optional
+3.4,Content and Structure Area,System of Arrangement,optional,optional,optional,optional,optional
+4.1,Conditions of Access and Use Area,Conditions governing access,optional,optional,optional,optional,optional
+4.2,Conditions of Access and Use Area,Conditions governing reproduction,optional,optional,optional,optional,optional
+4.3,Conditions of Access and Use Area,Language/scripts of material,optional,optional,optional,optional,optional
+4.4,Conditions of Access and Use Area,Physical characteristics and technical requirements,optional,optional,optional,optional,optional
+4.5,Conditions of Access and Use Area,Finding aids,optional,optional,optional,optional,optional
+5.1,Allied Materials Area,Existence and location of originals,optional,optional,optional,optional,optional
+5.2,Allied Materials Area,Existence and location of copies,optional,optional,optional,optional,optional
+5.3,Allied Materials Area,Related units of description,optional,optional,optional,optional,optional
+5.4,Allied Materials Area,Publication note,optional,optional,optional,optional,optional
+6.1,Notes Area,Note,optional,optional,optional,optional,optional
+7.1,Description control area,Archivist’s Note,optional,optional,optional,optional,optional
+7.2,Description control area,Rules or conventions,optional,optional,optional,optional,optional
+7.3,Description control area,Date of description,optional,optional,optional,optional,optional
