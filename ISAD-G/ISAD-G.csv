@@ -1,0 +1,23 @@
+ISAD_G_Area,Element,Fonds,SubFonds,Series,File,Item
+Identity Statement Area,Reference code,mandatory,mandatory,mandatory,mandatory,mandatory
+Identity Statement Area,Title,mandatory,mandatory,mandatory,mandatory,mandatory
+Identity Statement Area,Dates,mandatory,mandatory,mandatory,mandatory,mandatory
+Identity Statement Area,Level of description,mandatory,mandatory,mandatory,mandatory,mandatory
+Identity Statement Area,Extent and medium of the unit of description,mandatory,mandatory,mandatory,mandatory,mandatory
+Context Area,Name of Creator,mandatory,mandatory,mandatory,mandatory,mandatory
+Context Area,Administrative/biographical history,optional,optional,optional,optional,optional
+Context Area,Archival history,optional,optional,optional,optional,optional
+Context Area,Immediate source of acquisition or transfer,optional,optional,optional,optional,optional
+Content and Structure Area,Scope and content,optional,optional,optional,optional,optional
+Content and Structure Area,"Appraisal, destruction and scheduling information",optional,optional,optional,optional,optional
+Content and Structure Area,Accruals,optional,optional,optional,optional,optional
+Content and Structure Area,System of Arrangement,optional,optional,optional,optional,optional
+Conditions of Access and Use Area,Conditions governing access,optional,optional,optional,optional,optional
+Conditions of Access and Use Area,Conditions governing reproduction,optional,optional,optional,optional,optional
+Conditions of Access and Use Area,Language/scripts of material,optional,optional,optional,optional,optional
+Conditions of Access and Use Area,Physical characteristics and technical requirements,optional,optional,optional,optional,optional
+Conditions of Access and Use Area,Finding aids,optional,optional,optional,optional,optional
+Notes Area,Note,optional,optional,optional,optional,optional
+Description control area,Archivist’s Note,optional,optional,optional,optional,optional
+Description control area,Rules or conventions,optional,optional,optional,optional,optional
+Description control area,Date of description,optional,optional,optional,optional,optional
