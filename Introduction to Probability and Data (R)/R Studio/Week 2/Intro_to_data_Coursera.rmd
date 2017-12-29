@@ -241,7 +241,8 @@ this data frame as `sfo_feb_flights`. How many flights meet these criteria?
 </ol>
 
 ```{r sfo-feb-flights}
-# type your code for Question 1 here, and Knit
+sfo_feb_flights %>%
+  summarise(n = n())
 
 ```
 
@@ -257,7 +258,8 @@ delays of `sfo_feb_flights`. Which of the following is false?
 </ol>
 
 ```{r sfo-feb-flights-arrival-delays}
-# type your code for Question 2 here, and Knit
+ggplot(data = sfo_feb_flights, aes(x = dep_delay)) +
+  geom_histogram()
 
 ```
 
@@ -287,7 +289,9 @@ IQR of arrival delays?
 </ol>
 
 ```{r sfo-feb-flights-arrival-delays-carrier}
-# type your code for Question 3 here, and Knit
+sfo_feb_flights %>%
+  group_by(carrier) %>%
+  summarise(mean_dd = mean(dep_delay), IQR_dd = IQR(dep_delay), n = n())
 
 ```
 
