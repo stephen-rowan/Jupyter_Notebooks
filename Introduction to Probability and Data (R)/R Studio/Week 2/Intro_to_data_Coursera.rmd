@@ -291,7 +291,7 @@ IQR of arrival delays?
 ```{r sfo-feb-flights-arrival-delays-carrier}
 sfo_feb_flights %>%
   group_by(carrier) %>%
-  summarise(mean_dd = mean(dep_delay), IQR_dd = IQR(dep_delay), n = n())
+  summarise(median_dd = median(dep_delay), IQR_dd = IQR(dep_delay), n = n())
 
 ```
 
@@ -325,7 +325,7 @@ nycflights %>%
 </ol>
 
 ```{r highest-avg-dep-delay-month}
-# type your code for Question 4 here, and Knit
+7
 
 ```
 
@@ -340,7 +340,7 @@ nycflights %>%
 </ol>
 
 ```{r highest-median-dep-delay-month}
-# type your code for Question 5 here, and Knit
+12
 
 ```
 

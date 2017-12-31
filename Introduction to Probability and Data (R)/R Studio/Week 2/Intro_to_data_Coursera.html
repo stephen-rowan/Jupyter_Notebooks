@@ -400,15 +400,15 @@ Frontier Airlines
 </ol>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">sfo_feb_flights <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">group_by</span>(carrier) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">mean_dd =</span> <span class="kw">mean</span>(dep_delay), <span class="dt">IQR_dd =</span> <span class="kw">IQR</span>(dep_delay), <span class="dt">n =</span> <span class="kw">n</span>())</code></pre></div>
+<span class="st">  </span><span class="kw">summarise</span>(<span class="dt">median_dd =</span> <span class="kw">median</span>(dep_delay), <span class="dt">IQR_dd =</span> <span class="kw">IQR</span>(dep_delay), <span class="dt">n =</span> <span class="kw">n</span>())</code></pre></div>
 <pre><code>## # A tibble: 5 x 4
-##   carrier    mean_dd IQR_dd     n
-##     &lt;chr&gt;      &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;
-## 1      AA 21.4000000  32.75    10
-## 2      B6 -0.3333333   3.50     6
-## 3      DL  3.1052632   6.50    19
-## 4      UA 13.5238095  13.00    21
-## 5      VX 13.2500000  16.75    12</code></pre>
+##   carrier median_dd IQR_dd     n
+##     &lt;chr&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;
+## 1      AA      13.0  32.75    10
+## 2      B6      -2.0   3.50     6
+## 3      DL      -3.0   6.50    19
+## 4      UA      -2.0  13.00    21
+## 5      VX      -3.5  16.75    12</code></pre>
 </div>
 <div id="departure-delays-over-months" class="section level3">
 <h3>Departure delays over months</h3>
@@ -461,7 +461,8 @@ December
 </li>
 </ol></li>
 </ol>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># type your code for Question 4 here, and Knit</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">7</span></code></pre></div>
+<pre><code>## [1] 7</code></pre>
 <ol start="5" style="list-style-type: decimal">
 <li>Which month has the highest median departure delay from an NYC airport?
 <ol>
@@ -482,7 +483,8 @@ December
 </li>
 </ol></li>
 </ol>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># type your code for Question 5 here, and Knit</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">12</span></code></pre></div>
+<pre><code>## [1] 12</code></pre>
 <ol start="6" style="list-style-type: decimal">
 <li>Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?
 <ol>
