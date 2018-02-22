@@ -1,0 +1,3 @@
+* Readme for Jupyter Notebooks
+
+Jupyter notebooks in R, Common Lisp (SBCL) and Python
