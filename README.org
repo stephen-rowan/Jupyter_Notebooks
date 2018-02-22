@@ -1,3 +1,31 @@
 * Readme for Jupyter Notebooks
 
 Jupyter notebooks in R, Common Lisp (SBCL) and Python
+
+** Common Lisp
+
+https://github.com/stephen-rowan/Jupyter_Notebooks/tree/master/Common-Lisp
+
+Exercises taken from [[http://www.gigamonkeys.com/book/][Practical Common Lisp]] by Peter Seibel.
+
+** Data Science for Business
+
+Notes and exercises from [[http://data-science-for-biz.com/DSB/Home.html][Data Science for Business]] by Foster Provost and Tom Fawcett.
+
+** Datacamp
+
+Datacamp exercises.
+
+** Graphs (Python)
+
+Playing with graphs (diagraphs) and graphviz in Python.
+
+** Introduction to Probability and Data (R)
+
+Exercises and notes from the Coursera course "Introduction to Probability and Data".
+
+
+
+
+
+
