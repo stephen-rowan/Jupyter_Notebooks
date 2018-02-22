@@ -1,0 +1,3 @@
+** Data Science for Business
+
+Notes and exercises from [[http://data-science-for-biz.com/DSB/Home.html][Data Science for Business]] by Foster Provost and Tom Fawcett.
