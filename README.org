@@ -24,8 +24,25 @@ Playing with graphs (diagraphs) and graphviz in Python.
 
 Exercises and notes from the Coursera course "Introduction to Probability and Data".
 
+** JSON (R)
 
+These workbooks use the R statistical language to extract data from websites using Omeka's JSON API.
 
+** Lambda Calculus (Haskell)
+
+Rough notes and exercises in Haskell.
+
+** Linear Algebra (Python)
+
+Linear Algebra exercises.
+
+** Probabilistic Programming and Bayesian Methods for Hackers (Python)
+
+Exercises from the book [[http://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb][Probabilistic Programming and Bayesian Methods for Hackers]]
+
+** Tensor Flow (Python)
+
+Basic Tensor Flow exercises in Python.
 
 
 
